@@ -27,6 +27,11 @@ def fill_missing(df, default_val=0):
     df.fillna(0, inplace=True)
     return df
 
+# Imputations
+def imputate_missing():
+    pass
+
+
 # Features filtering
 def drop_columns(df, max_cat=10, max_num=50):
     # categorical features
